@@ -16,7 +16,7 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.61",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.61",
     "@electron-forge/maker-zip": "^6.0.0-beta.61",
-    "electron": "16.0.5",
+    "electron": "^16.0.5",
     "tailwindcss": "^3.0.9"
   },
   "dependencies": {
@@ -49,5 +49,13 @@
         }
       ]
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frenchtoast0/Bible-Verse-Displayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Frenchtoast0/Bible-Verse-Displayer/issues"
+  },
+  "homepage": "https://github.com/Frenchtoast0/Bible-Verse-Displayer#readme"
 }

@@ -12,8 +12,11 @@ This repo should be especially valuable to Hacktoberfest coders as it has a simp
 
 **Getting started**
 1. Clone the repo
-2. run ```npm install``` to initialize the node_modules
-3. Begin coding!
+2. Run ```npm init```
+3. Make sure electron is installed: ```npm install --save-dev electron```, also make sure git is installed
+4. run ```npm install``` to initialize the node_modules
+5. Begin coding!
+6. Run ```npm start``` to serve the project
 
 **Project Info**
 - The /windows folder contains a control and a present html page.  Control is for the controller finding the verses, and present is for the audience to see.
