@@ -5,8 +5,9 @@ This project began as a passion project as a tool Churches could use to display 
 This repo should be especially valuable to Hacktoberfest coders as it has a simple tech stack and simple (for now) featureset.
 
 **Tech stack**
-- electronjs is the engine (Javascript)
-- CSS styling is made easier with TailwindCSS classes
+- [electronjs](https://www.electronjs.org/) is the engine (Javascript)
+- CSS styling is made easier with [TailwindCSS](https://tailwindcss.com/docs/installation) classes
+- npm package manager
 
 
 **Getting started**
@@ -16,3 +17,4 @@ This repo should be especially valuable to Hacktoberfest coders as it has a simp
 
 **Project Info**
 - The /windows folder contains a control and a present html page.  Control is for the controller finding the verses, and present is for the audience to see.
+- To build CSS run: ```npx tailwindcss -i ./src/main.css -o ./dist/main.css --watch```
