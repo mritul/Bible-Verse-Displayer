@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="bg-gray-50" data-theme="corporate">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="../dist/main.css">
+    <title>Control</title>
+  </head>
+  <body class="m-2">
+    <div class="flex flex-col space-y-1">
+
+      <div class="flex space-x-1 w-full">
+        <div class="flex flex-col space-y-1 w-1/2">
+          <div id="searching" class="space-y-1">
+            <div class="flex">
+              <input placeholder="search" id="search" class="input input-primary h-8 w-full"/>
+              <button class="btn btn-sm" id="searchButton">Save</button>
+            </div>
+            
+            <div id="saved-results" class="h-52 border overflow-y-auto">
+              <button class="w-full btn btn-xs btn-secondary">1 54 gsg</button>
+            </div>
+          </div>
+          <div id="quick-buttons">
+            <button class="btn btn-sm w-full">Blank</button>
+          </div>
+        </div>
+
+        <div class="flex w-full p-2 space-x-2">
+          <div class="border w-1/2">
+            <img src="x" class="w-full h-full"/>
+          </div>
+          <div class="border w-1/2">
+            <img src="x" class="w-full h-full"/>
+          </div>
+        </div>
+      </div>
+      <div id="search-results" class="border">
+        <div class="p-2">
+          <div class="card border border-black w-36">
+            <div class="card-body">
+              This is the info
+            </div>
+          </div>
+
+        </div>
+      </div>  
+      
+      
+    </div>
+
+    <div class="italic absolute bottom-0">VisualBible</div>
+  </body>
+  <script src="../js/control.js"></script>
+</html>
