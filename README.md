@@ -1,6 +1,6 @@
 # Bible Verse Displayer
 
-This project began as a passion project as a tool Churches could use to display scripture verses on the fly.  Most current scripture display software requires the scriptures to be found prior to a service.  However, I haven't had the time to work on this so I'm opening it up for the open-source community to help on it.  
+This project began as a passion project as a tool Churches could use to display scripture verses on the fly.  Most current scripture display software requires the scriptures to be found prior to a service.  The aim for this software is to make an on-the-fly scripture displayer to a second display.  However, I haven't had the time to work on this so I'm opening it up for the open-source community to help on it.  
 
 This repo should be especially valuable to Hacktoberfest coders as it has a simple tech stack and simple (for now) featureset.
 
